@@ -1,8 +1,5 @@
-scikit-learn
-pandas
-numpy
-lightgbm
-xgboost
-catboost
-joblib
 streamlit
+pandas
+numpy==1.24.3
+joblib
+scikit-learn==1.3.0
