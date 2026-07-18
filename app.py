@@ -1,7 +1,8 @@
 import streamlit as st
 import sklearn.compose._column_transformer
-if not hasattr(sklearn.compose._column_transformer,'_RemainderColsList'):
-    class_RemainderColsList(list): pass
+class _RemainderColsList(list):
+    pass
+if not hasattr(sklearn.compose._column_transformer,'_RemainderColsList'):    
     sklearn.compose._column_transformer._RemainderColsList = _RemainderColsList
 import joblib
 import pandas as pd
