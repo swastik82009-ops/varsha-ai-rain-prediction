@@ -6,3 +6,6 @@ scikit-learn
 lightgbm
 xgboost
 catboost
+flask
+flask-cors
+gunicorn
